@@ -10,7 +10,7 @@ class DjsController < ApplicationController
 
         dj = Dj.find(params[:id])
 
-        render json: client
+        render json: dj
 
     end
 end
