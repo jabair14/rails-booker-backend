@@ -15,10 +15,10 @@ Dj.destroy_all
 
 puts "Seeding Clients"
 
-Client.create(name: "Jabair", email: "jabairk@gmail.com", username: "jabairk", location: "Philadelphia", avatar: Faker::LoremFlickr.image)
-Client.create(name: "Radiyah", email: "rsabur@gmail.com", username: "rsabur", location: "New York", avatar: Faker::LoremFlickr.image)
-Client.create(name: "Sean", email: "spadden@gmail.com", username: "seanp", location: "Miami", avatar: Faker::LoremFlickr.image)
-Client.create(name: "Greg", email: "gregd@gmail.com", username: "gregd", location: "Honolulu", avatar: Faker::LoremFlickr.image)
+Client.create(name: "Jabair", email: "jabairk@gmail.com", username: "jabairk", location: "Philadelphia", avatar: Faker::LoremFlickr.image, password: "abc123")
+Client.create(name: "Radiyah", email: "rsabur@gmail.com", username: "rsabur", location: "New York", avatar: Faker::LoremFlickr.image, password: "abc123")
+Client.create(name: "Sean", email: "spadden@gmail.com", username: "seanp", location: "Miami", avatar: Faker::LoremFlickr.image, password: "abc123")
+Client.create(name: "Greg", email: "gregd@gmail.com", username: "gregd", location: "Honolulu", avatar: Faker::LoremFlickr.image, password: "abc123")
 
 puts "Seeding DJs"
 
