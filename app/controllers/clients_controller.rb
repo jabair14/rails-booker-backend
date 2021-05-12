@@ -14,6 +14,12 @@ class ClientsController < ApplicationController
 
     end
 
+    def create
+        client = Client.create!(client_params)
+
+        render json: client 
+    end
+
     def update
         client = Client.find(params[:id])
 
@@ -31,7 +37,7 @@ class ClientsController < ApplicationController
 
     def client_params
     
-        params.require(:client).permit(:name, :email, :username, :location, :avatar)
+        params.require(:client).permit(:name, :email, :username, :location, :avatar, :password)
     
     end
 end
