@@ -154,6 +154,97 @@ Dj.create(
     image: "https://i1.sndcdn.com/avatars-000325082783-enl1iz-t500x500.jpg",
     genre: "House/Hip-Hop")
 
+Dj.create(
+    name: "Ameme",
+    bio: 'AMEME is a DJ/music producer based in Brooklyn/NY.
+    He was drawn by the rhythms of African drums since his early age growing up in Benin(West Africa).
+    Living in New York for a decade allowed him to develop a style which is a seamless blend of electronic, African and world music.
+    He is the founder of "One Tribe", a creative collective whose vibrant lifestyle events unite diverse individuals & elements Art, 
+    Fashion and Tribal Music.',
+    rate: rand(3..5)*1000,
+    link: "https://open.spotify.com/embed/artist/4FSC8SFGwUq3dU2206UZvk",
+    image: "https://scontent.fdet1-1.fna.fbcdn.net/v/t1.6435-9/45006850_1122742234553032_7927350738865356800_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=730e14&_nc_ohc=_vLj6il1nuUAX_xYWoq&_nc_ht=scontent.fdet1-1.fna&oh=fa5447fd286148219971da31e0a275e7&oe=60C4B24F",
+    genre: "Afro Beats")
+    
+Dj.create(
+    name: "Black Coffee", 
+    bio: 'Black Coffee’s penchant is for true Afropolitan house: home-brewed but future-focused. Maphumulo became prominent after 
+    participating in the 2004 Red Bull Music Academy that was held in Cape Town. In September 2015, he won the "Breakthrough DJ 
+    of the Year" award at the DJ Awards in Ibiza.',
+    rate: rand(1.0..1.5)*100000,
+    link: "https://open.spotify.com/embed/artist/6wMr4zKPrrR0UVz08WtUWc",
+    image: "https://djmag.com/sites/default/files/styles/djmag_landscape__691x372_/public/article/image/black-coffee-1-sonar-bcn-2018.jpg?itok=GTJ3G0yg",
+    genre: "House")
+    
+Dj.create(
+    name: "Blond:ish", 
+    bio: "Blond:ish is a Canadian producer/DJ duo formed in 2008 by Anstascia D'Elene Corniere and Vivie-ann Bakos. As of 2019, 
+    Blond:ish is a solo act represented by Vive-ann Bakos.",
+    rate: rand(3..5)*1000,
+    link: "https://open.spotify.com/embed/artist/6zsJjoCtL1WByG0VsuFWzR",
+    image: "https://d3vhc53cl8e8km.cloudfront.net/hello-staging/wp-content/uploads/2014/05/13175142/tdCN81kyaxubz3p2OnZhnteoA20ZuIqkuT6CgprP-972x597.jpeg",
+    genre: "House; Techno; Deep House")
+    
+Dj.create(
+    name: "Solomun", 
+    bio: "Solomun, is a Bosnian-German DJ. He is a four-time DJ Awards winner for Best Producer, Best DJ and Best Melodic House DJ.",
+    rate: rand(2..5)*10000,
+    link: "https://open.spotify.com/embed/artist/5wJK4kQAkVGjqM9x46KQOC",
+    image: "https://www.edmtunes.com/wp-content/uploads/2020/07/Solomun.jpg",
+    genre: "Deep House; Techno")
+    
+Dj.create(
+    name: "David Guetta",
+    bio: "Pierre David Guetta is a French DJ, record producer and songwriter. He has racked up over 50 million record sales globally, 
+    whereas his total number of streams is over 10 billion. In 2011 and 2020, Guetta was voted as the number one DJ in the DJ Mag 
+    Top 100 DJs poll.",
+    rate: rand(1.0..1.5)*100000,
+    link: "https://open.spotify.com/embed/artist/1Cs0zKBU1kc0i8ypK3B9ai",
+    image: "http://www.global-sets.com/wp-content/uploads/2015/12/David-Guetta12121-640x330.png",
+    genre: "EDM; House; Dance Pop")
+    
+Dj.create(
+    name: "Carl Cox",
+    bio: "Carl Cox is a British house and techno record producer and DJ. Carl played at the 1st night of Danny Rampling's 
+    Shoom night after his return from Ibiza in the summer of 1987, largely seen as the original Balearic / Acid House night in 
+    London / the UK.",
+    rate: rand(6..9)*10000,
+    link: "https://open.spotify.com/embed/artist/19SmlbABtI4bXz864MLqOS",
+    image: "https://d3vhc53cl8e8km.cloudfront.net/hello-staging/wp-content/uploads/2014/05/06230831/IrTtlwPsIH5tlLqWWonPMsbBlWNb2ggeh7XdAMiR-972x597.jpeg",
+    genre: "House; Techno; Tech House; Minimal Techno")
+    
+Dj.create(
+    name: "Mednas",
+    bio: "Mehdi Nassiri, better known Mednas, is a DJ and producer originally from Casablanca, Morocco. He is the resident DJ of 
+    the Miami club, LIV.",
+    rate: rand(4..6)*1000,
+    link: "https://open.spotify.com/embed/artist/0ifDOttuMQG7tOhatsjuoy",
+    image: "https://joybeat.com/wp-content/uploads/2014/05/MEDNAS-250x250.jpg",
+    genre: "House")
+    
+Dj.create(
+    name: "Nina Kraviz",
+    bio: "Nina Kraviz is a Russian DJ, music producer and singer.",
+    rate: rand(3..5)*10000,
+    link: "https://open.spotify.com/embed/artist/1oZmFNkGAT93yD1xX4vTRE",
+    image: "https://dancingastro-wpengine.netdna-ssl.com/wp-content/uploads/2016/11/21-08-2015-10-55-13.jpg",
+    genre: "Techno; Tech house; Minimal; Electronica; Acid House")
+    
+Dj.create(
+    name: "Jamie Jones",
+    bio: "Jamie Jones is a member of the electronic music group Hot Natured and the head of the record label Hot Creations, as well as its sub-labels Emerald City and Hottrax. Jones was voted the top DJ of 2011 by the online dance music magazine Resident Advisor.",
+    rate: rand(4..5)*10000,
+    link: "https://open.spotify.com/embed/artist/4admDxmnri5Zco0xYrJ0ji",
+    image: "https://d3vhc53cl8e8km.cloudfront.net/hello-staging/wp-content/uploads/2014/05/14222726/12gDjM9SdazKDcEqfgTvCuZzeF7UnOMg0hxFnn5h-972x597.jpeg",
+    genre: "House; Deep House; Tech House; Techno")
+    
+Dj.create(
+    name: "Jan Blomqvist",
+    bio: "Jan Blomqvist, born in the 80s (not in Sweden) is a Berlin-based solo-artist and bandleader. It was him who invented concert techno: dreamy vocals and simple beats. With his band BLOMQVIST he’s into dancy electro-pop, as a solo-artist, he plays clubsoul.",
+    rate: rand(6..7)*1000,
+    link: "https://open.spotify.com/embed/artist/5wMlMjOLeJfS5DfxqGfm83",
+    image: "https://www.fazemag.de/wp-content/uploads/2020/07/Jan_Blomqvist__by_Christian_Dammann_print_015.jpg",
+    genre: "Dance/Electronic")
 
 
 puts "Seeding Bookings"
