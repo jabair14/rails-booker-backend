@@ -63,7 +63,6 @@ ActiveRecord::Schema.define(version: 2021_05_13_235008) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.string "password"
-    t.string "password_digest"
   end
 
   create_table "djs", force: :cascade do |t|
